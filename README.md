@@ -49,6 +49,24 @@ Implementación de un sistema de reserva de asientos para salas de cine. Compone
 
 ---
 
+### **Actividad_6/** - Carrito de Compras Dinámico
+Simulación de un carrito de compras para un entorno E-commerce utilizando la clase **ArrayList**, permitiendo el crecimiento dinámico de elementos.
+
+Contiene:
+
+- `ItemCatalogo.java`: Representa un producto con atributos como código, nombre y precio. Incluye la sobreescritura del método `equals()` para validar correctamente la existencia de elementos dentro de la lista.
+- `CarritoDemo.java`: Programa principal donde se agregan productos al carrito, se evita el ingreso de duplicados mediante `contains()` y se eliminan elementos por índice y por objeto.
+
+Conceptos aplicados:
+
+- Uso de estructuras dinámicas en lugar de arreglos estáticos  
+- Diferencia entre **tamaño (size)** y **capacidad (capacity)** en un `ArrayList`  
+- Redimensionamiento automático del arreglo interno (crecimiento aproximado del 50%)  
+- Costo de copia de elementos en memoria **O(n)**  
+
+
+---
+
 ## 🚀 Cómo Usar
 
 1. Clona o descarga el repositorio
