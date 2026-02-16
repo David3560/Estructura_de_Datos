@@ -1,0 +1,23 @@
+#Archvios compilados 
+*.class
+
+#Carpetas de compilacion 
+bin/
+build/
+out/
+
+#archivos de configuracion de IDEs
+*.idea/
+*.vscode/   
+
+#Archivos de log
+*.log       
+
+#Archivos de sistema
+.DS_Store
+Thumbs.db   
+
+#Archivos de dependencias
+node_modules/
+vendor/ 
+
